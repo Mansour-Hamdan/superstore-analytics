@@ -1,0 +1,50 @@
+{
+  "best_model": "Logistic Regression",
+  "cutoff_date": "2017-10-01",
+  "n_products": 1850,
+  "reorder_rate": 0.473,
+  "n_train": 1480,
+  "n_test": 370,
+  "models": {
+    "Always predict majority": {
+      "cv_roc_auc_mean": 0.5,
+      "cv_roc_auc_std": 0.0,
+      "test_accuracy": 0.527,
+      "test_roc_auc": 0.5,
+      "test_recall": 0.0,
+      "test_f1": 0.0
+    },
+    "Decision Tree (original features)": {
+      "cv_roc_auc_mean": 0.5591,
+      "cv_roc_auc_std": 0.0336,
+      "test_accuracy": 0.5541,
+      "test_roc_auc": 0.5587,
+      "test_recall": 0.2743,
+      "test_f1": 0.3678
+    },
+    "Decision Tree": {
+      "cv_roc_auc_mean": 0.5273,
+      "cv_roc_auc_std": 0.0298,
+      "test_accuracy": 0.5405,
+      "test_roc_auc": 0.5306,
+      "test_recall": 0.1943,
+      "test_f1": 0.2857
+    },
+    "Logistic Regression": {
+      "cv_roc_auc_mean": 0.5646,
+      "cv_roc_auc_std": 0.0323,
+      "test_accuracy": 0.5189,
+      "test_roc_auc": 0.5169,
+      "test_recall": 0.3543,
+      "test_f1": 0.4106
+    },
+    "Random Forest": {
+      "cv_roc_auc_mean": 0.5574,
+      "cv_roc_auc_std": 0.037,
+      "test_accuracy": 0.4892,
+      "test_roc_auc": 0.4988,
+      "test_recall": 0.3314,
+      "test_f1": 0.3803
+    }
+  }
+}
