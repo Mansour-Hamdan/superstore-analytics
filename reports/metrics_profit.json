@@ -1,0 +1,47 @@
+{
+  "best_model": "Random Forest (margin)",
+  "n_train": 7995,
+  "n_test": 1999,
+  "models": {
+    "Predict the mean": {
+      "cv_mae_mean": 63.77,
+      "cv_mae_std": 7.5,
+      "cv_rmse_mean": 224.95,
+      "cv_rmse_std": 76.53,
+      "cv_r2_mean": -0.0005,
+      "test_rmse": 220.43,
+      "test_mae": 67.55,
+      "test_r2": -0.0021
+    },
+    "Linear Regression (original)": {
+      "cv_mae_mean": 37.44,
+      "cv_mae_std": 2.44,
+      "cv_rmse_mean": 120.78,
+      "cv_rmse_std": 28.96,
+      "cv_r2_mean": 0.6686,
+      "test_rmse": 181.24,
+      "test_mae": 42.32,
+      "test_r2": 0.3225
+    },
+    "Random Forest (profit)": {
+      "cv_mae_mean": 19.12,
+      "cv_mae_std": 2.52,
+      "cv_rmse_mean": 106.48,
+      "cv_rmse_std": 48.52,
+      "cv_r2_mean": 0.7853,
+      "test_rmse": 217.73,
+      "test_mae": 26.85,
+      "test_r2": 0.0222
+    },
+    "Random Forest (margin)": {
+      "cv_mae_mean": 14.09,
+      "cv_mae_std": 0.83,
+      "cv_rmse_mean": 47.44,
+      "cv_rmse_std": 14.67,
+      "cv_r2_mean": 0.9515,
+      "test_rmse": 119.08,
+      "test_mae": 18.05,
+      "test_r2": 0.7075
+    }
+  }
+}
